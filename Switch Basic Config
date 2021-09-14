@@ -1,0 +1,39 @@
+## Basic Switch Config
+```
+hostname R1
+enable secret class
+
+line console 0
+  password cisco
+  login
+  exit
+
+line vty 0 4
+  password cisco
+  login
+  exit
+
+service password-encryption
+banner motd #
+********************************************************
+**                                                    **
+**             Authorised Access Only!!!              **
+**                                                    **
+********************************************************#
+end
+copy run start
+```
+
+## Loopback Interfaces
+```
+interface loopback 0
+  ip address 10.10.25.1 255.255.255.0
+  exit
+```
+
+## Command History Feature
+```
+terminal history size 200
+show history
+```
+
