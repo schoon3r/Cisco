@@ -15,6 +15,7 @@ ip access-list standard 'access-list-name'
 ```
 
 ![ACL1](Images/ACL1.png)
+<img src="Images/ACL1.png>
 
 ## Apply a Standard ACL to an Interface
 
