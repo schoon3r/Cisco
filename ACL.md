@@ -25,5 +25,5 @@ ip access-group {access-list-number | access-list-name} {in | out}
 
 ### Standard ACL Sample
 
-![ACL2](Images/ACL2.png)
+![ACL2](Images/ACL2.PNG)
 \*\* _Remarks only show in the running config and not displayed here_
