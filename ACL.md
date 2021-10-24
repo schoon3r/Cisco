@@ -14,7 +14,12 @@ access-list 10 {deny | permit | remark text} source [source-wildcard] [log]
 ip access-list standard 'access-list-name'
 ```
 
-![ACL1](images/ACL1.PNG)
+<<<<<<< HEAD
+![ACL1](mages/ACL1.PNG)
+=======
+![ACL1](Images/ACL1.PNG)
+
+> > > > > > > f2d25544ab3200999564221fbd13a025b7fe9010
 
 ## Apply a Standard ACL to an Interface
 
@@ -25,5 +30,10 @@ ip access-group {access-list-number | access-list-name} {in | out}
 
 ### Standard ACL Sample
 
-![ACL2](images/ACL2.PNG)
-\*\* _Remarks only show in the running config and not displayed here_
+<<<<<<< HEAD
+![ACL2](mages/ACL2.PNG)
+=======
+![ACL2](Images/ACL2.PNG)
+
+> > > > > > > f2d25544ab3200999564221fbd13a025b7fe9010
+> > > > > > > \*\* _Remarks only show in the running config and not displayed here_
