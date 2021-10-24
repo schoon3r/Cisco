@@ -14,7 +14,7 @@ access-list 10 {deny | permit | remark text} source [source-wildcard] [log]
 ip access-list standard 'access-list-name'
 ```
 
-![ACL1](images/ACL1.png)
+![ACL1](CCNA/images/ACL1.png)
 
 ## Apply a Standard ACL to an Interface
 
