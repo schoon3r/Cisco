@@ -49,6 +49,7 @@ R1# clock set 16:01:00 sept 25 2020
 ```
 R1# show clock detail
 R1(config)# ntp server 209.165.200.225
+R1(config)# ntp update-calendar
 R1(config)# end
 R1# show clock detail
 R1# show ntp associations
@@ -59,7 +60,10 @@ R1# show ntp status
 
 ```
 R1# configure terminal
-R1(config)# service timestamps log datetime
+R1(config)# logging host 192.168.1.10
+R1(config)# service timestamps log datetime msec
+R1(config)# logging trap debugging
+R1(config)# logging on
 ```
 
 # Router File System
